@@ -13,6 +13,7 @@ end
 group :test do
   gem 'rake'
   gem 'rspec'
+  #gem 'rake_shared_context'
 end
 
 group :development do
