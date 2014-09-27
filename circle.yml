@@ -1,7 +1,3 @@
-machine:
-  ruby:
-    version: 2.1.2
-
 deployment:
   staging:
     branch: master
