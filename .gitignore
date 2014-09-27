@@ -19,6 +19,7 @@
 /wiki
 /pkg
 /public/assets
+/.sass-cache
 
 # Suggested ignores for pesky problem commiters
 # *~

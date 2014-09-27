@@ -1,0 +1,51 @@
+/ Jumbotron
+.jumbotron
+  .container
+    %h1 WebPipe
+    %p.lead
+      WebPipe exports console commands as Web API.
+      This view is to test streaming command output.
+      Stream is text, chunked and sometime ANSI colored.
+      View receives the stream using onprogress() and render it.
+    %p
+      %a.btn.btn-lg.btn-success{:href => "#", :role => "button"}
+        Get started today
+
+/ Form
+.container
+  %form.form-inline{:role => "form"}
+    .checkbox
+      %label
+        %input{:type => "checkbox"} Use POST
+    .form-group
+      %label.sr-only Path
+      %input#path.form-control{:type => "text", :placeholder => "Enter API path"}
+    %button.btn.btn-default{:type => "submit"} Request
+
+/ Example row of colmuns
+.container
+  .row
+    .col-lg-4
+      %h2 Warning!
+      %p.text-danger
+        UI is only example. This view is to test streaming command output.
+      %p
+        WebPipe is simple command exec tool via HTTP.
+        This view is to test streaming command output.
+        Stream is text, ANSI colored and chunked.
+        View receives the stream using onprogress().
+      %p
+        %a.btn.btn-primary{:href => "#", :role => "button"}
+          View details &raquo;
+    .col-lg-4
+      %h2 Bootstrap
+      %p This view utilizes bootstrap 3.2.0 from CDN.
+      %p
+        %a.btn.btn-primary{:href => "#", :role => "button"}
+          View details &raquo;
+    .col-lg-4
+      %h2 AngularJS
+      %p AngularJS and CoffeeScript will be used.
+      %p
+        %a.btn.btn-primary{:href => "#", :role => "button"}
+          View details &raquo;

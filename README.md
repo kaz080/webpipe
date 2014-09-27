@@ -1,4 +1,4 @@
-# Webpipe
+# WebPipe
 
 Web interface to run command.
 
