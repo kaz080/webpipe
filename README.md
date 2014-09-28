@@ -1,5 +1,7 @@
 # WebPipe
 
+[![CircleCI build status][ico-circle]][circle]
+
 Web interface to run command.
 
 ## Installation
@@ -29,3 +31,6 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+[ico-circle]: https://circleci.com/gh/kaz080/webpipe.png?circle-token=:circle-token
+[circle]: https://circleci.com/gh/kaz080/webpipe
